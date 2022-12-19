@@ -9,8 +9,8 @@ export default function ErrorPage() {
       <h2> 404: Page Not Found </h2>
       <p>
         {" "}
-        Oops! The server request URL <code> {location.name}</code> was not found
-        on this server . Try a different URL!
+        Oops! The URL <code> {location.name}</code> was not found on this server
+        . Try a different URL!
       </p>
     </div>
   );
