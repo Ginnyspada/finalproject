@@ -3,38 +3,22 @@ function _fetch(url) {
     return response.json();
   });
 }
-
+//Get
 export function fetchLists() {
   return _fetch("http://localhost:3000/list");
 }
-
+//Get
 export function fetchList(listId) {
   return _fetch(`http://localhost:3000/lists/${listId}`);
 }
-
+// have to create a comment page in src, then save the comment and figure out how to add the date and the user. Create a comment form to add to routes
 export function fetchComments(listId) {
   return _fetch(`http://localhost:3002/lists/${listId}/comments`);
 }
 
-// DELETE /comments/:id
+// DELETE portion
 export function deleteComment(commentId) {
   return fetch(`http://localhost:3002/comments/${commentId}`, {
     method: "DELETE",
-  });
-}
-
-///post comments
-export function saveComment(body, listId) {
-  return fetch("https://localhost:3002/list/:id/comments", {
-    method: "POST",
-    body: JSON.stringify({
-      body: body, // text from textarea
-      listId: listId,
-    }),
-    headers: {
-      "Content-type": "application/json",
-    },
-  }).then((response) => {
-    return response.json();
   });
 }

@@ -14,14 +14,8 @@ import Quotes from "./routes/Quotes";
 import Index from "./routes/Index";
 import Root from "./routes/Root";
 import List from "./routes/List";
-import App from "./App";
-import {
-  deleteComment,
-  fetchComments,
-  fetchLists,
-  fetchPosts,
-  saveComment,
-} from "./api";
+//import App from "./App";
+import { deleteComment, fetchComments, fetchLists } from "./api";
 import { toast } from "react-toastify";
 import About from "./routes/About";
 import Incomplete from "./routes/Incomplete";
@@ -77,7 +71,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
