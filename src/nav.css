@@ -1,0 +1,16 @@
+.nav-link {
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid {
+  background-color: #917cb8;
+  border-radius: 20px;
+}
+.navbar {
+  background-color: #dacfea;
+  border-radius: 10px;
+}
+.nav-tabs {
+  list-style: none;
+}
