@@ -3,6 +3,12 @@
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.nav-brand {
+  font-weight: bold;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
 .container-fluid {
   background-color: #917cb8;
   border-radius: 20px;

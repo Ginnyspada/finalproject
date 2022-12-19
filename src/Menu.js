@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <nav className="navbar navbar-expand-lg mb-2 ">
       <div className="container-fluid justify-content-center">
-        <Link to="/" className="nav-brand">
+        <Link to="/" className="nav-brand ">
           Welcome
         </Link>
         <div className="collapse navbar-collapse" id="menu">
